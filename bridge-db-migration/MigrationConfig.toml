@@ -1,0 +1,2 @@
+database_url = "postgres://custom_bridge:custom_bridge@localhost:5432/custom_bridge"
+db_migration_instruction = "fresh"

@@ -1,0 +1,31 @@
+[default]
+# bridge-web-api
+database_url = "postgres://custom_bridge:custom_bridge@localhost:5432/custom_bridge"
+on_chain_endpoint = "https://api.devnet.solana.com"
+bridge_program_address = "7oikCXiFBK5cqy4AJGrjaJNVhLNNB2eKgjxQXVHukuj4"
+bridge_account_address = "A1JowEBcpfMfALUcUJvncpYDFuAAQLN4NBWUgMHdHqE9"
+bridge_account_token_mint = "FXBVMf98w3XXeWXCo4juNLToTY3rftvWuJya9kvM7mBT"
+bridge_holding_wallet_owner = "6Rcnb5rMh5EUi2UxSApEnCkeKujNGkY4uLEH2bDHKCC9"
+admin_token_account = "3v4GwtRBPstV5FwG1Tr8Ne8DTaJyfQ67j2ZhRx3XQUfK"
+rust_log = "warn"
+bridge_web_api_log = "info"
+fee_payer_address = "6a7ZaYRtUUsME6HoVWxcz9Rk5oqKuLxz4Atb8D7aiX6f"
+fee_payer_private_key = "zzdtYNfMLYbtQieSBUa2CpUJCp1uCGUiwZzsTTeXRQDFfHmtVpPhZbP5CRmenZ8p4Uj2M9gyKTq7eks5vheP9YK"
+send_transaction_simulate = true
+bridge_holding_wallet = "dkLAsVbbcAAwwXvqcRyv8CQYm8NNu3ZdzseKsXvaMGj"
+bridge_admin_address = "6a7ZaYRtUUsME6HoVWxcz9Rk5oqKuLxz4Atb8D7aiX6f"
+gari_treassury_wallet = "DkYSJTYRx22HdFL6U51eptpQQ6o1HAeKskte4eWYaTQv"
+gari_faucet_account = "3N6SUyjEzX29gdCpVYh1vigBhBv3sxZ8jeh1VwJ6iWqw"
+gari_faucet_token_mint = "BQ3K2uL49Bf13PVptaY84ExEyUeqakywUZXtNrZ2icC9"
+faucet_admin_address = "6a7ZaYRtUUsME6HoVWxcz9Rk5oqKuLxz4Atb8D7aiX6f"
+admin_private_key = "zzdtYNfMLYbtQieSBUa2CpUJCp1uCGUiwZzsTTeXRQDFfHmtVpPhZbP5CRmenZ8p4Uj2M9gyKTq7eks5vheP9YK"
+faucet_admin_private_key = "zzdtYNfMLYbtQieSBUa2CpUJCp1uCGUiwZzsTTeXRQDFfHmtVpPhZbP5CRmenZ8p4Uj2M9gyKTq7eks5vheP9YK"
+bridge_platform_fee = 0
+mantle_gas_fee = 1
+sqlx_max_connections = 10
+sqlx_min_connections = 2
+sqlx_connect_timeout = 8
+sqlx_idle_timeout = 8
+sqlx_max_lifetime = 8
+sqlx_logging = false
+web_api_sqlx_logging_level = "info"

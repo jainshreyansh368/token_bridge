@@ -1,0 +1,11 @@
+on_chain_endpoint,str
+bridge_program_address,str
+bridge_account_address,str
+bridge_account_token_mint,str
+bridge_holding_wallet_owner,str
+rust_log,str
+bridge_web_api_log,str
+fee_payer_address,str
+fee_payer_private_key,str
+send_transaction_simulate,str
+bridge_holding_wallet,str

@@ -1,0 +1,18 @@
+[package]
+name = "bridge-db-migration"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "bridge_db_migration"
+path = "src/lib.rs"
+
+[dependencies]
+tokio = { version = "1.25.0", features = ["macros", "rt-multi-thread"] }
+sea-orm-cli = { version = "0.10.7", default-features = false, features = ["runtime-tokio-rustls"] }
+sea-orm-migration = { version = "0.10.7", features = ["sqlx-postgres"] }
+figment = { version = "0.10.8", features = ["toml"] }
+serde = { version = "1.0.163", features = ["derive"] }
+
+bridge-db-entity = { path = "../bridge-db-entity" }
